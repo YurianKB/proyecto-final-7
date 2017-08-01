@@ -6,21 +6,93 @@ html
     meta(name="viewport", content="width=device-width")
     link(type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection")
     link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
-    link(link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet")
-    link (rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
-    script (src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js")
+    link(rel="stylesheet" href="../assets/css/main.css")
 
   body
     nav
       div.nav-wrapper
-      a(href="#" class="brand-logo")
-       img(src="./images/logo.png")
-      ul(id="nav-mobile" class="right hide-on-med-and-down")
-        li HOMES
-        li PAGES
-        li BLOG
-        li PORTFOLIO
-        li SHORTCODES
+        a(href="#" class="brand-logo")
+          img(src="../images/logo.png")
+        ul(id="nav-mobile" class="right hide-on-med-and-down")
+          li HOME
+          li PAGES
+          li BLOG
+          li PORTFOLIO
+          li SHORTCODES
+          li
+            i(class="material-icons") add
+
+        div(class="row")
+          div(class="col s12")
+
+              img(src="../images/coming-soon-bg.png")
+
+   div(class="row")
+    div(class="col s12")
+      div(class="col s6")
+        img(src="../images/aboutus/1.png")
+      div(class="col s6")
+        p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor"
+
+
+   div(class="row espacio-2 center-align")
+     div(class="col s12")
+       div(class="col s4")
+          img(src="../images/home/icon1.png")
+          h4 Incredibly Responsive
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+
+       div(class="col s4")
+          img(src="../images/home/icon2.png")
+          h4 Superior Typographic
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+
+       div(class="col s4")
+          img(src="../images/home/icon3.png")
+          h4 Incredibly Responsive
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing
+
+
+   div(class="row")
+     div(class="col s12 ")
+       img(src="../images/coming-soon-bg.png")
+
+   div.row
+    div(class="col s12 center align")
+      h4 Meet the Team
+      p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+
+  div.row
+    div(class="col s12")
+      div(class="col s3")
+        img(class="imagenes-pequeñas" src="../images/aboutus/4.jpg")
+        h5 John Doe
+        p CEO & Developer
+      div(class="col s3")
+        img(class="imagenes-pequeñas" src="../images/aboutus/3.jpg")
+        h5 John Doe
+        p CEO & Developer
+      div(class="col s3")
+        img(class="imagenes-pequeñas" src="../images/aboutus/2.jpg")
+        h5 John Doe
+        p CEO & Developer
+      div(class="col s3")
+        img(class="imagenes-pequeñas" src="../images/aboutus/1.jpg")
+        h5 John Doe
+        p CEO & Developer
+
+  div.row
+    div(class="col 12 footers")
+      img(src="../images/home/under.png")
+      img(src="../images/home/footer.png")
+
+
+
+
+
+
 
 
   script(src="assets/js/main.js")

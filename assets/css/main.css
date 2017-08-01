@@ -1,0 +1,22 @@
+.nav-wrapper{
+  background-color: rgb(255, 255, 255);
+}
+
+*{
+  color: rgb(91, 91, 91);
+  font-family: roboto;
+}
+
+li{
+  margin-left: 0%;
+}
+
+.espacio-2{
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.imagenes-pequeñas{
+  width: 100%;
+  height: 55%;
+}
